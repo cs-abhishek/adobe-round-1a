@@ -1,0 +1,36 @@
+{
+  "document_title": "Sample Document Title",
+  "total_pages": 2,
+  "outline": [
+    {
+      "text": "Chapter 1: Introduction",
+      "level": "h1",
+      "page": 1
+    },
+    {
+      "text": "1.1 Overview",
+      "level": "h2",
+      "page": 1
+    },
+    {
+      "text": "1.1.1 Background",
+      "level": "h3",
+      "page": 1
+    },
+    {
+      "text": "Chapter 2: Methodology",
+      "level": "h1",
+      "page": 2
+    },
+    {
+      "text": "2.1 Approach",
+      "level": "h2",
+      "page": 2
+    },
+    {
+      "text": "2.1.1 Data Collection",
+      "level": "h3",
+      "page": 2
+    }
+  ]
+}

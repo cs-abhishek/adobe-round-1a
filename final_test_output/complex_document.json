@@ -1,0 +1,71 @@
+{
+  "document_title": "Advanced Research Paper",
+  "total_pages": 5,
+  "outline": [
+    {
+      "text": "A Comprehensive Study",
+      "level": "h1",
+      "page": 1
+    },
+    {
+      "text": "Abstract",
+      "level": "h2",
+      "page": 1
+    },
+    {
+      "text": "1. Introduction",
+      "level": "h2",
+      "page": 2
+    },
+    {
+      "text": "1.1 Research Questions",
+      "level": "h3",
+      "page": 2
+    },
+    {
+      "text": "2. Literature Review",
+      "level": "h2",
+      "page": 3
+    },
+    {
+      "text": "2.1 Theoretical Framework",
+      "level": "h3",
+      "page": 3
+    },
+    {
+      "text": "3. Methodology",
+      "level": "h2",
+      "page": 4
+    },
+    {
+      "text": "3.1 Data Collection",
+      "level": "h3",
+      "page": 4
+    },
+    {
+      "text": "3.2 Analysis Techniques",
+      "level": "h3",
+      "page": 4
+    },
+    {
+      "text": "4. Results and Discussion",
+      "level": "h2",
+      "page": 5
+    },
+    {
+      "text": "4.1 Key Findings",
+      "level": "h3",
+      "page": 5
+    },
+    {
+      "text": "4.2 Implications",
+      "level": "h3",
+      "page": 5
+    },
+    {
+      "text": "5. Conclusion",
+      "level": "h2",
+      "page": 5
+    }
+  ]
+}

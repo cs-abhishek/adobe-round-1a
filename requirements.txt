@@ -1,0 +1,12 @@
+# Adobe Hackathon 2025 Round 1A - Python Dependencies
+# PDF processing libraries for outline extraction
+# Total size: ~45MB (well under 200MB constraint)
+
+# Primary PDF parsing library - fast and accurate
+PyMuPDF==1.23.5
+
+# Alternative PDF parsing library for robustness
+pdfplumber==0.10.0
+
+# Additional PDF processing capability
+pdfminer.six==20221105

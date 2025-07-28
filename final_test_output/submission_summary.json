@@ -1,0 +1,22 @@
+{
+  "hackathon": "Adobe Hackathon 2025 - Round 1A",
+  "challenge": "PDF Outline Extraction",
+  "status": "VALIDATED",
+  "performance": {
+    "total_time": 0.03952741622924805,
+    "total_pages": 7,
+    "avg_speed": 177.09227335786235,
+    "estimated_50_page_time": 0.28233868735177176
+  },
+  "outputs": [
+    {
+      "file": "complex_document.pdf",
+      "headings": 13
+    },
+    {
+      "file": "sample_document.pdf",
+      "headings": 6
+    }
+  ],
+  "requirements_met": true
+}
