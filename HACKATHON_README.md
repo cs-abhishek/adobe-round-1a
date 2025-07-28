@@ -1,10 +1,13 @@
 # 🏆 Adobe Hackathon 2025 - Round 1A
+
 ## PDF Outline Extractor - Final Submission
 
 ### 🎯 Challenge
+
 Extract structured outline (Title, H1, H2, H3) from PDF files with page numbers and output in JSON format.
 
 ### ✅ Requirements Met
+
 - ✅ **Platform**: linux/amd64 Docker container
 - ✅ **Runtime**: No GPU, no internet access
 - ✅ **Performance**: <10s for 50-page PDF (actual: 0.28s)
@@ -16,6 +19,7 @@ Extract structured outline (Title, H1, H2, H3) from PDF files with page numbers 
 ### 🚀 Quick Start
 
 #### Docker Usage (Recommended)
+
 ```bash
 # Build the image
 docker build -t adobe-hackathon-pdf-extractor .
@@ -28,6 +32,7 @@ docker run --rm --platform linux/amd64 \
 ```
 
 #### Local Testing
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -42,12 +47,14 @@ python main.py
 ### 📁 Key Files
 
 #### Core Implementation
+
 - **`main.py`** - Entry point for Docker container
 - **`pdf_outline_extractor.py`** - Main extraction engine
 - **`Dockerfile`** - Container definition (Python 3.10-slim)
 - **`requirements.txt`** - Dependencies (PyMuPDF, pdfplumber)
 
 #### Testing & Validation
+
 - **`validate_submission.py`** - Comprehensive submission validator
 - **`test_extractor.py`** - Simple test case generator
 - **`test_complex.py`** - Complex document test
@@ -67,6 +74,7 @@ python main.py
 ### 🧪 Algorithm Highlights
 
 #### Multi-Factor Font Analysis
+
 - Font size (primary hierarchy indicator)
 - Bold formatting (strong heading indicator)
 - Pattern recognition (1., 1.1, Chapter X, etc.)
@@ -74,12 +82,14 @@ python main.py
 - Content filtering (exclude captions, references)
 
 #### Smart Hierarchy Detection
+
 - **Title**: Largest font on first page
 - **H1**: Largest bold fonts with heading patterns
-- **H2**: Medium bold fonts, numbered sections  
+- **H2**: Medium bold fonts, numbered sections
 - **H3**: Smaller bold fonts, subsection patterns
 
 #### Edge Case Handling
+
 - Mixed font sizes within same level
 - Inconsistent bold formatting
 - Figure/table captions vs headings
@@ -95,7 +105,7 @@ python main.py
   "outline": [
     {
       "text": "1. Introduction",
-      "level": "h1", 
+      "level": "h1",
       "page": 3
     },
     {
@@ -104,7 +114,7 @@ python main.py
       "page": 3
     },
     {
-      "text": "1.1.1 Motivation", 
+      "text": "1.1.1 Motivation",
       "level": "h3",
       "page": 4
     }
@@ -123,7 +133,7 @@ python main.py
 ### ✅ Validation Checklist
 
 - [x] Uses Python 3.10-slim base image
-- [x] Runs main.py as entry point  
+- [x] Runs main.py as entry point
 - [x] Processes PDFs from /app/input
 - [x] Outputs JSON to /app/output
 - [x] Works without internet access
@@ -137,7 +147,7 @@ python main.py
 **🎉 READY FOR ADOBE HACKATHON 2025 SUBMISSION**
 
 - ✅ All requirements validated
-- ✅ Performance exceeds specifications  
+- ✅ Performance exceeds specifications
 - ✅ Comprehensive testing completed
 - ✅ Docker container tested and working
 - ✅ Documentation complete
