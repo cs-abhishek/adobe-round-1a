@@ -1,0 +1,46 @@
+# Docker ignore file for Adobe Hackathon 2025
+# Excludes unnecessary files from Docker context
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+
+# Test outputs (don't include in container)
+test_output/
+docker_test_output/
+docker_output/
+
+# Documentation (optional - can include if needed)
+*.md
+
+# Log files
+*.log
+
+# Temporary test files
+test_*
+debug_*

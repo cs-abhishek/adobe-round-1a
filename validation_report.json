@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-07-28T23:43:12.138690",
+  "overall_status": "NEEDS_ATTENTION",
+  "requirements": {
+    "docker_file": {
+      "passed": true,
+      "details": "Python: True, WORKDIR: True, COPY: True, CMD: True",
+      "optimized": true
+    },
+    "entry_point": {
+      "passed": true,
+      "professional": true,
+      "details": "Import: True, Main: True, Logging: True"
+    },
+    "dependencies": {
+      "passed": true,
+      "dependencies": 9,
+      "has_gpu": false,
+      "details": "PyMuPDF: True, GPU deps: False, Total: 9"
+    },
+    "core_module": {
+      "passed": true,
+      "methods": "process_pdf: True, extract_headings: True, hierarchy: True"
+    },
+    "json_output": {
+      "passed": true,
+      "fields": [
+        "document_title",
+        "total_pages",
+        "outline"
+      ],
+      "outline_validation": "Validated 13 outline items",
+      "details": "Required fields: True, Outline valid: True"
+    },
+    "no_gpu_deps": {
+      "passed": true,
+      "gpu_deps_found": [],
+      "details": "No GPU dependencies"
+    },
+    "container_size": {
+      "passed": false,
+      "details": "Container size check failed: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "performance": {
+    "passed": true,
+    "description": "Batch Processing Scalability",
+    "metrics": {
+      "Multi-document support": "Yes",
+      "Directory processing": "Automated",
+      "Output organization": "Individual JSON files"
+    }
+  },
+  "extras": {
+    "multi-factor_font_intelligence": {
+      "passed": true,
+      "excellent": true,
+      "description": "Multi-Factor Font Intelligence",
+      "features": [
+        "Font size and weight analysis",
+        "Multi-factor scoring algorithm",
+        "Pattern recognition engine",
+        "Intelligent hierarchy detection"
+      ]
+    },
+    "pattern_recognition_engine": {
+      "passed": true,
+      "excellent": true,
+      "description": "Pattern Recognition Engine",
+      "features": [
+        "Numbered section detection (1., 1.1, etc.)",
+        "Chapter structure recognition",
+        "Section hierarchy analysis"
+      ]
+    },
+    "professional_implementation_features": {
+      "passed": true,
+      "excellent": true,
+      "description": "Professional Implementation Features",
+      "features": [
+        "Professional logging system",
+        "Hackathon presentation banner",
+        "Performance monitoring",
+        "Docker health checks",
+        "Optimized container size",
+        "Comprehensive documentation",
+        "Technical pitch presentation"
+      ]
+    },
+    "documentation_quality": {
+      "passed": true,
+      "excellent": true,
+      "description": "Documentation Quality",
+      "features": [
+        "Main documentation",
+        "Technical pitch",
+        "Standard README",
+        "Solution overview",
+        "Interactive demonstrations"
+      ]
+    }
+  }
+}
